@@ -44,6 +44,12 @@ header nav a {
     line-height: 33px;
 
     color: #777777;
+    transition: all 0.8s ease-in;
+}
+
+header nav a:hover {
+    color: #c2185b;
+    text-decoration: underline;
 }
 
 header ul li {
